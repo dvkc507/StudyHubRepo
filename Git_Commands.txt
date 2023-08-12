@@ -20,7 +20,7 @@ Git Switch vs. Checkout: What's the Difference?
 Git switch and git checkout are both used to change branches, but they have some differences in syntax and behavior. Git switch is a newer command that is more focused on branches, while git checkout is an older command that can do other things besides switching branches.
 switch was introduced in 2020 git release
 9. git switch branchname
-10. git commit
+10. git commit -m "message"
 used to record the changes
 11. git status
 12. git branch --help
