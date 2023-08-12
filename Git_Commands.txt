@@ -29,7 +29,4 @@ used to record the changes
 15. git add . (This process is called staging, where index are created for snapshort)
 16. git push origin branchname
 17. git pull origin branchname
-18. 
-19.
-20.
-21. from branch1 local
+18. from branch1 remote commit
