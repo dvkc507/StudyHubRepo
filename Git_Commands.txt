@@ -27,3 +27,5 @@ used to record the changes
 13. mkdir folder1
 14. cd folder1
 15. git add . (This process is called staging, where index are created for snapshort)
+16. git push origin branchname
+17. git pull origin branchname
