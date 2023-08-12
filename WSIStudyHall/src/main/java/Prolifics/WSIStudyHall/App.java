@@ -26,7 +26,10 @@ public class App
         // commit 3
         // commit 4
 <<<<<<< HEAD
+<<<<<<< HEAD
         // commit 6
+=======
+>>>>>>> parent of 96312b9... added commit 5 from eclipse
 =======
 >>>>>>> parent of 96312b9... added commit 5 from eclipse
     }
