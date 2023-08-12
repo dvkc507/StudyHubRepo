@@ -1,0 +1,29 @@
+Token: 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
+Git User Email: chaitanya.savari@gmail.com Tapasvi@2016, username: dvkc507
+git commands all small cases
+1. git clone
+2. git branch 
+Displays the all available branches(local & remote)
+3. git branch -a
+Displays the all available remote branches(local & remote), also provides full path of brnaches like 
+remotes/origin/HEAD-> origin/main
+remotes/origin/main
+4. git branch NewBrachName or git branch -c NewBrachName 
+Creating the new branch, but this branch will be there in local, and no upstream branch in the remote repository, so use the below
+git push --set-upstream origin NewBrachName 
+5. clear
+6. exit
+7. git checkout branchname
+for swicthing to another branch, if branch is not available then git throws error stating that file doest not exists in github
+8. What is difference between git switch and git checkout?
+Git Switch vs. Checkout: What's the Difference?
+Git switch and git checkout are both used to change branches, but they have some differences in syntax and behavior. Git switch is a newer command that is more focused on branches, while git checkout is an older command that can do other things besides switching branches.
+switch was introduced in 2020 git release
+9. git switch branchname
+10. git commit
+used to record the changes
+11. git status
+12. git branch --help
+13. mkdir folder1
+14. cd folder1
+15. git add . (This process is called staging, where index are created for snapshort)
