@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Inside Before Test]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Inside After Test]]>
+    </line>
+    <line>
+      <![CDATA[Inside Before Test]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Inside After Test]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2023-08-09T07:46:28 IST" finished-at="2023-08-09T07:46:28 IST">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="Suite1" duration-ms="147" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+    <groups>
+      <group name="IT Department">
+        <method signature="AnnotationsExtendsClass.test3()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass@d44fc21]" name="test3" class="org.wsi.studyhall.AnnotationsExtendsClass"/>
+      </group> <!-- IT Department -->
+    </groups>
+    <test name="Test1" duration-ms="68" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+      <class name="org.wsi.studyhall.AnnotationsExtendsClass">
+        <test-method status="PASS" signature="Before()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass@d44fc21]" name="Before" is-config="true" duration-ms="1" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside Before Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Before -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass@d44fc21]" name="beforeClass" is-config="true" duration-ms="1" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="BeforeM()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass@d44fc21]" name="BeforeM" is-config="true" duration-ms="1" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeM -->
+        <test-method status="PASS" signature="test1()[pri:-1, instance:org.wsi.studyhall.AnnotationsExtendsClass@d44fc21]" name="test1" duration-ms="9" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="AfterM()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass@d44fc21]" name="AfterM" is-config="true" duration-ms="0" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterM -->
+        <test-method status="PASS" signature="BeforeM()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass@d44fc21]" name="BeforeM" is-config="true" duration-ms="2" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeM -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass@d44fc21]" name="test3" duration-ms="1" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="AfterM()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass@d44fc21]" name="AfterM" is-config="true" duration-ms="1" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterM -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass@d44fc21]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="reportTest()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass@d44fc21]" name="reportTest" is-config="true" duration-ms="0" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside After Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+      </class> <!-- org.wsi.studyhall.AnnotationsExtendsClass -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="28" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+      <class name="org.wsi.studyhall.AnnotationsExtendsClass2">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass2@1877ab81]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="Before()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass2@1877ab81]" name="Before" is-config="true" duration-ms="4" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside Before Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Before -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass2@1877ab81]" name="beforeClass" is-config="true" duration-ms="1" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="BeforeM()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass2@1877ab81]" name="BeforeM" is-config="true" duration-ms="0" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeM -->
+        <test-method status="PASS" signature="test4()[pri:1, instance:org.wsi.studyhall.AnnotationsExtendsClass2@1877ab81]" name="test4" duration-ms="3" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="AfterM()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass2@1877ab81]" name="AfterM" is-config="true" duration-ms="1" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterM -->
+        <test-method status="PASS" signature="BeforeM()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass2@1877ab81]" name="BeforeM" is-config="true" duration-ms="2" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeM -->
+        <test-method status="PASS" signature="test5()[pri:2, instance:org.wsi.studyhall.AnnotationsExtendsClass2@1877ab81]" name="test5" duration-ms="2" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="AfterM()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass2@1877ab81]" name="AfterM" is-config="true" duration-ms="2" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterM -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass2@1877ab81]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="reportTest()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass2@1877ab81]" name="reportTest" is-config="true" duration-ms="1" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside After Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.wsi.studyhall.AnnotationsExtendsClass2@1877ab81]" name="afterSuite" is-config="true" duration-ms="0" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.wsi.studyhall.AnnotationsExtendsClass2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite1 -->
+  <suite name="Suite2" duration-ms="3" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+    <groups>
+    </groups>
+    <test name="Test3" duration-ms="3" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+      <class name="org.wsi.studyhall.AnnotationTest2">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.wsi.studyhall.AnnotationTest2@ea1a8d5]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.wsi.studyhall.AnnotationTest2@ea1a8d5]" name="afterSuite" is-config="true" duration-ms="2" started-at="2023-08-09T07:46:27 IST" finished-at="2023-08-09T07:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.wsi.studyhall.AnnotationTest2 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite2 -->
+</testng-results>

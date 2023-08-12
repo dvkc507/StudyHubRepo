@@ -1,0 +1,18 @@
+ Variables Names should always starts with small and then second name is capital(valueLabs, submitButton)
+ UpperCase: Classes, Interfaces, Enum, Annotations
+ LowerCase: Varaibles, Methods, object names, packages, keywords
+ lower dot cases: packages names(com.prolifics.wsgc), property file names(config.property, or.property)
+ All Capital: constants (MIN_SALARY, COMPANY_NAME)
+Package names are written in all lower case to avoid conflict with the names of classes or interfaces. 
+
+ Classes Capital-> String, System
+ 
+ Maven: is a project Management tools used JVM languages like java, scala to build project
+ Major tasks are
+1. building source code(Versioning)
+2. testing
+3. packaging into artifacts like (BuildTool JAR or WAR)
+4. Generating Docs
+5. Managing the dependencies(Dependency Management tool)
+
+Target folder comes with maven, in this all complied .class files are stored
