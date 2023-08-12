@@ -1,7 +1,7 @@
 Token: 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
 Git User Email: chaitanya.savari@gmail.com Tapasvi@2016, username: dvkc507
 git commands all small cases
-1. git clone
+1. git clone https://github.com/dvkc507/StudyHubRepo.git
 2. git branch 
 Displays the all available branches(local & remote)
 3. git branch -a
@@ -27,3 +27,9 @@ used to record the changes
 13. mkdir folder1
 14. cd folder1
 15. git add . (This process is called staging, where index are created for snapshort)
+16. git push origin branchname
+17. git pull origin branchname
+18. 
+19.
+20.
+21. from branch1 local
