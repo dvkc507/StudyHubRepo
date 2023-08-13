@@ -21,7 +21,5 @@ public class App
     	AllFilterDropDown.click();
     	//driver.close();
         System.out.println( "Hello World!" );
-        //reveret1
-        //revert2
     }
 }
