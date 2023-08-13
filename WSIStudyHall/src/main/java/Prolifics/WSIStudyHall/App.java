@@ -21,13 +21,5 @@ public class App
     	AllFilterDropDown.click();
     	//driver.close();
         System.out.println( "Hello World!" );
-        // commit 1
-        // commit 2
-        // commit 3
-<<<<<<< HEAD
-        // commit 4
-        // commit 6
-=======
->>>>>>> parent of 22e048c... added commit 4 from eclipse
     }
 }

@@ -30,3 +30,27 @@ used to record the changes
 16. git push origin branchname
 17. git pull origin branchname
 18. Merging done from local
+------
+Revert:
+Rollback changes you have committed.
+Creates a new commit from a specified commit by inverting it. Hence, adds a new commit history to the project, but it does not modify the existing one.
+Has the potential to overwrite files in the working directory.
+Reset:
+Use this to return the entire working tree to the last committed state. This will discard commits in a private branch or throw away uncommitted changes!
+Changes which commit a branch HEAD is currently pointing at. It alters the existing commit history.
+Can be used to unstage a file.
+----
+you can think of git revert as a tool for undoing committed changes, while git reset HEAD is for undoing uncommitted changes.
+Scenario: Image that you did git push in hotfix branch for commits you didn't want to make yet.
+Solution: The safest way to fix this is by reverting your changes since it doesn't re-write the commit history
+----
+For displaying the commits use below, one line it will show
+git log --oneline
+-----
+When to Use git reset and git revert
+You should use git reset when working on a local repository with changes yet to be pushed remotely. This is because running this command after pulling changes from the remote repo will alter the commit history of the project, leading to merge conflicts for everyone working on the project.
+
+git reset is a good option when you realize that the changes being made to a particular local branch should be somewhere else. You can reset and move to the desired branch without losing your file changes.
+
+git revert is a good option for reverting changes pushed to a remote repository. Since this command creates a new commit, you can safely get rid of your mistakes without rearranging the commit history for everyone else.
+-------
