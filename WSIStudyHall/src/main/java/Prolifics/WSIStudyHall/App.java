@@ -23,9 +23,5 @@ public class App
         System.out.println( "Hello World!" );
         //commit1
         //updated from local for rebase last time
-        //Commit 1 revert
-        //Commit 2 revert
-        //Commit 3 revert
-        //cmmit 4 revert
     }
 }
