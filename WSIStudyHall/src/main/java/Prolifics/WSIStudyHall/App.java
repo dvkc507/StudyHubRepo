@@ -23,6 +23,5 @@ public class App
         System.out.println( "Hello World!" );
         //commit1
         //updated from local for rebase last time
-        //Commit1
     }
 }
