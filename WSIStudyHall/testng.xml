@@ -15,5 +15,5 @@
     <classes>
       <class name="org.wsi.studyhall.AnnotationTest2"/>
     </classes>
-  </test> <!-- Test --><!-- rebase from main last time -->
-</suite> <!-- Suite --><!-- commit2 --><!-- 1 -->
+  </test> <!-- Test --><!-- rebase from main last time --><!-- rebase from main second time -->
+</suite> <!-- Suite -->
