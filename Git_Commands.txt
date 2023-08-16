@@ -39,6 +39,7 @@ Reset:
 Use this to return the entire working tree to the last committed state. This will discard commits in a private branch or throw away uncommitted changes!
 Changes which commit a branch HEAD is currently pointing at. It alters the existing commit history.
 Can be used to unstage a file.
+git reset --hard HEAD~3 //3 commits will be removed from local, if you commit then we will get error saying that you will get a fast-forward error because your local history diverges from the remote history. then use git push -f for force forward  
 ----
 you can think of git revert as a tool for undoing committed changes, while git reset HEAD is for undoing uncommitted changes.
 Scenario: Image that you did git push in hotfix branch for commits you didn't want to make yet.
