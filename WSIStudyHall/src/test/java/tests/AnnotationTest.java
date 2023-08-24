@@ -1,4 +1,4 @@
-package org.wsi.studyhall;
+package tests;
 
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;

@@ -1,0 +1,116 @@
+Assetion
+1. Assert.assertEquals("true","false")
+2. Assert.false("message")
+Asset class has static methods so no need to create object for calling methods, directly can use class name
+If we want to continue execution to next line even if assertion fail then use soft assertion
+
+SoftAssert softAssert = new SoftAssert();
+softAssert.true("message");
+
+finally use softAssert.notifyAll(); so that test result will fail if softassert got failed, if we dont use then step's will fail at softassert but entire test case will be shown as pass
+-------------------------------------------------------
+Dpendencies(dependsOnMethod)
+1. Hard Dependencies
+2. Soft Dependencies
+example 
+@Test
+public void login(priority = 1){ }
+@Test
+public void register(priority =2, dependsOnMethod = {"login"}){ }
+if login failed then register method will also get failed
+Soft dependecies does not depends on success on the dependent method, use allwaysRun=true for soft dependencies
+@Test
+public void tearDown(priority =3, dependsOnMethod = {"login","register"}, allwaysRun=true){}
+----------------------------------------------------------
+groups, can be included/exclude at test level and suite leel only
+@Test
+public void method1(groups = "smoke")
+{
+}
+public void method2(groups = "regression")
+{
+}
+public void method3(groups ={"bvt","smoke","regression"})
+{
+}
+In TestNG include the group for execution
+<suite name="demo">
+<groups>
+<run>
+<include = "smoke"></include>
+</run>
+</groups>
+</suite>
+Exclude means all groups will be run except the mentiond group
+<suite name="demo"><groups><run>
+<exclude = "smoke"></exclude>
+</run></groups></suite>
+If we want to run some thig before group then use tag @BeforeGroups
+	@BeforeGroups("smoke")
+	public void beforeGroups() {
+		System.out.println("beforeGroups method executed group");
+	}
+
+-------------------------------------------------------------------
+Listeners: are triggers, if some event happen then they will get trigger automatically, example test case got failed then you can take scrren shots for all test failures using listeners, ITestLister is an interface so need to implement all un implemented methods
+public void Listerns implements ITestLister{
+public void onTestStart(ITestResult result)
+{
+}
+public void onTestFailure(ITestResult result)
+{
+System.out.println(result.getName());
+}
+public void onTestSuccess(ITestResult result)
+{
+System.out.println(result.getName());
+}
+public void onTestSkipped(ITestResult result)
+{
+System.out.println(result.getName());
+}
+public void onTestFinish(ITestResult result)
+{
+System.out.println(result.getName());
+}
+Include the listnerclass inside the testng.xml after the suite
+<suite name="suite1">
+<listners>
+<listner class-name="package.listerclassname"></listner>
+</listners>
+----------------------------------------------------------------------------------
+Forcefully Skipping the test
+@Test
+public void method1(){
+if(condition fail){
+throw new SkippedException("condition dint met");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
