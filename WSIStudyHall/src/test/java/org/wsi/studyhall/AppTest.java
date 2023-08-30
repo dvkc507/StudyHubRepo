@@ -46,7 +46,8 @@ public void afterClass() {
     @Test(priority=1)
     public void shouldAnswerWithTrue()
     {
-    	System.setProperty("webdriver.chrome.driver", "C:/Users/vdoppalapudi/Desktop/Chaitanya/FixRegression/WSIStudyHall/resources/chromedriver.exe");
+    	String path = System.getProperty("user.dir");
+    	System.setProperty("webdriver.chrome.driver", path+"/resources/chromedriver.exe");
     	driver = new ChromeDriver();Reporter.log("After driver launch");
     	driver.get("https://google.com");Reporter.log("After opening google website url");
     	driver.manage().window().maximize();Reporter.log("After window Maximize");

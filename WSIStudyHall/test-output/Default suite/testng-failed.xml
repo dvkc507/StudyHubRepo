@@ -3,13 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Prolifics.WSIStudyHall.AppTest">
+      <class name="org.wsi.studyhall.AppTest">
         <methods>
           <include name="Before"/>
-          <include name="After"/>
           <include name="shouldAnswerWithTrue"/>
+          <include name="beforeClass"/>
+          <include name="reportTest"/>
+          <include name="BeforeM"/>
+          <include name="AfterM"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- Prolifics.WSIStudyHall.AppTest -->
+      </class> <!-- org.wsi.studyhall.AppTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

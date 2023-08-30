@@ -10,7 +10,8 @@ public class App
 {
     public static void main( String[] args ) throws InterruptedException
     {
-    	System.setProperty("webdriver.chrome.driver", "C:/Users/vdoppalapudi/Desktop/Chaitanya/FixRegression/WSIStudyHall/resources/chromedriver.exe");
+    	String path = System.getProperty("user.dir");
+    	System.setProperty("webdriver.chrome.driver", path+"/resources/chromedriver.exe");
     	WebDriver driver = new ChromeDriver();
     	driver.get("https://google.com");
     	driver.manage().window().maximize();
@@ -19,7 +20,7 @@ public class App
     	search_box.sendKeys(Keys.ENTER);
     	WebElement AllFilterDropDown= driver.findElement(By.xpath("//div[contains(text(),'All filters')]"));
     	AllFilterDropDown.click();
-    	//driver.close();
+    	driver.close();
         System.out.println( "Hello World!" );
 //Commit3
     }
