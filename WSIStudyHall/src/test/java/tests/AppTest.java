@@ -1,4 +1,4 @@
-package org.wsi.studyhall;
+package tests;
 import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.By;

@@ -1,4 +1,4 @@
-package org.wsi.studyhall;
+package tests;
 
 import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
